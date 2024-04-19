@@ -1,0 +1,35 @@
+@import '../../../global.scss';
+
+
+.search-bar {
+  display: flex;
+  flex-grow: 6;
+  border-radius: 5px;
+  box-shadow: $default-box-shadow;
+  margin: 1em auto;
+
+
+
+  .search-bar__bar {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6em .7em;
+    width: 100%;
+
+
+
+    .bar {
+      border: none;
+      width: 100%;
+    }
+
+    .bar:focus {
+      outline: none;
+    }
+  }
+}
+

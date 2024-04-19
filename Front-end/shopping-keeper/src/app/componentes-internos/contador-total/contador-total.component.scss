@@ -1,0 +1,28 @@
+@import '../../../global.scss';
+
+.contador-total {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+
+
+  .contador-total__total {
+    font-size: 1.5em;
+  }
+
+  .contador-total__enviar {
+
+
+    .enviar {
+      display: block;
+      padding: 1em 3em;
+      background-color: $text-color;
+      color: $background-color;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../../../global.scss';
+
+
+.up-navigator {
+
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+
+    .up-navigator__arrow-back {
+        position: absolute;
+        left: .5em;
+    }
+
+
+    .title {
+      font-size: 1.3em;
+    }
+}

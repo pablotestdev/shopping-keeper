@@ -1,0 +1,175 @@
+@import '../../../global.scss';
+
+.mercado-component {
+    box-shadow: $default-box-shadow;
+    width: 97%;
+    padding: .5em 0 .3em 0;
+    margin: 0 auto;
+
+    .mercado {
+        display: flex;
+
+
+
+
+        user-select: none;
+
+
+
+
+        .mercado__img {
+
+            width: 100px;
+            height: 70px;
+            background-color: darkgray;
+            border-radius: 5px;
+            margin-left: .5em;
+
+
+            .img {
+                object-fit: cover;
+                border-radius: 5px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .mercado__info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+
+
+            .titulo {
+                font-weight: bold;
+                font-size: calc(1em + 1vw);
+            }
+
+            .local {
+                display: flex;
+                margin-top: 15px;
+                align-items: center;
+
+                .distancia {
+                    display: block;
+                    color: white;
+                    background-color: black;
+                    padding: 7px;
+                }
+
+                .local-detalhado {
+                    padding-left: 10px;
+                }
+            }
+        }
+
+
+
+    }
+
+    .mercado__status {
+
+
+        .status {
+            margin-left: auto;
+            margin-right: .5em;
+            background-color: #06DB06;
+            border-radius: 50%;
+            height: 10px;
+            width: 10px;
+        }
+
+    }
+}
+
+
+
+@media(min-width: 500px) {
+    .mercado-component {
+        box-shadow: $default-box-shadow;
+        width: 97%;
+        padding: .5em 0 .3em 0;
+        margin: 0 auto;
+
+        .mercado {
+            display: flex;
+
+
+
+
+            user-select: none;
+
+
+
+
+            .mercado__img {
+
+                width: 100px;
+                height: 70px;
+                background-color: darkgray;
+                border-radius: 5px;
+                margin-left: .5em;
+
+
+                .img {
+                    object-fit: cover;
+                    border-radius: 5px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .mercado__info {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 20px;
+                width: 100%;
+
+
+                .titulo {
+                    font-weight: bold;
+                    font-size: clamp(1em, calc(1em + 1vw), 1.5em );
+
+                }
+
+                .local {
+                    display: flex;
+                    margin-top: 15px;
+                    align-items: center;
+                    padding-right: 1em;
+
+                    .distancia {
+                        display: block;
+                        color: white;
+                        background-color: black;
+                        padding: 7px;
+                    }
+
+                    .local-detalhado {
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+
+
+        }
+
+        .mercado__status {
+
+
+            .status {
+                margin-left: auto;
+                margin-right: .5em;
+                background-color: #06DB06;
+                border-radius: 50%;
+                height: 10px;
+                width: 10px;
+            }
+
+        }
+    }
+
+}

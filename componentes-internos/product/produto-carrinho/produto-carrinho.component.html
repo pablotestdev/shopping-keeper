@@ -1,0 +1,17 @@
+<div class="product">
+  <div class="product__picture">
+    <img class="picture" src="https://images-americanas.b2w.io/produtos/01/00/img2/146752/6/146752651_1SZ.jpg">
+  </div>
+  <div class="product__details">
+    <h5 class="description">Tomate Salada 1 Unidade Aprox. 250g</h5>
+    <span class="price">R$ {{ base_price * quantity }}</span>
+  </div>
+  <div class="product__quantity">
+    <a class="quantity-button quantity-button-left" (click)="IncreaseQuantity()">
+      <span class="material-icons" style="color: white;">add</span>
+    </a>
+    <a class="quantity-button" (click)="DecreaseQuantity()">
+      <span class="material-icons" style="color: white; margin: auto;" >remove</span>
+    </a>
+  </div>
+</div>

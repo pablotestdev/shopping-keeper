@@ -1,0 +1,82 @@
+@import '../../../../global.scss';
+
+
+
+
+
+.product {
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: .5em 0 .5em .5em;
+  width: 95%;
+  margin: 0 auto;
+  user-select: none;
+
+
+  .product__picture {
+    width: 64px;
+    height: 64px;
+    background-color: $mock-background-color;
+    border-radius: 5px;
+
+    .picture {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    .quantity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: -1em;
+      right: -4em;
+      color: $text-color;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: $background-color;
+      box-shadow: $light-box-shadow;
+
+    }
+  }
+
+  .product__details {
+    padding-left: 1em;
+
+    .description {
+      height: 40px;
+      width: 155px;
+      padding: 0 0 .3em 0;
+      margin: 0;
+      font-size: 1em;
+      font-family: $default-font;
+    }
+  }
+
+  .product__quantity {
+    display: flex;
+    margin-left: auto;
+    padding-right: .5em;
+
+
+    .quantity-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $text-color;
+      height: 25px;
+      width: 25px;
+      border-radius: 3px;
+
+    }
+
+    .quantity-button-left {
+      margin-right: .5em;
+    }
+
+  }
+
+}

@@ -1,0 +1,70 @@
+@import '../../../global.scss';
+
+.produto {
+  width: 150px;
+  height: 230px;
+  border-radius: 10px;
+  margin-left: .5em;
+  user-select: none;
+
+
+  box-shadow: $default-box-shadow;
+
+  .produto__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: .5em;
+    border-radius: 10px;
+
+
+    .img {
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .produto__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+
+    .titulo {
+      padding-bottom: .8em;
+      font-size: .8em;
+      text-align: center;
+      width: 90%;
+      height: 30px;
+
+    }
+
+
+
+    .info {
+
+      display: flex;
+      align-items: center;
+      .valor {
+        font-size: .7em;
+      }
+
+      .adicionar {
+        display: block;
+        background-color: black;
+        color: white;
+        padding: .5em;
+        margin-left: 1.4em;
+        font-size: .8em;
+
+      }
+
+    }
+  }
+}

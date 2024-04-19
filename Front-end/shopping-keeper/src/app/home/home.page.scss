@@ -1,0 +1,61 @@
+.home {
+
+  display: flex;
+  flex-direction: column;
+
+
+  height: 100vh;
+  width: 100vw;
+
+  .home__header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    .user-icon {
+      flex: 2;
+
+
+      .icon {
+        font-size: 3.5em;
+      }
+    }
+
+    .search-bar {
+      flex: 9;
+      padding-right: 1em;
+      border-radius: 10px;
+    }
+
+
+
+
+
+
+  }
+
+  .home__titulo {
+
+    h3 {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: .5em 0 .5em .5em;
+
+    }
+  }
+
+  .home__body {
+    flex: 10;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+
+}
+
