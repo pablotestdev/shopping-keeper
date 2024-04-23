@@ -1,7 +1,6 @@
 {
   "name": "shopping-keeper",
   "integrations": {
-    "capacitor": {}
   },
   "type": "angular"
 }
